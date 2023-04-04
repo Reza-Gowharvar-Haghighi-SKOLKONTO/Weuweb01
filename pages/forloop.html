@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        const list = ["a", "b", "c", "d"];
+        const colorlist = ["blue", "purple", "yellow", "green", "red"]
+        
+
+        for (i = 0; i in list; i++)
+        {
+
+            console.log(list[i]);
+
+        };
+
+        for (let i of colorlist)
+        {
+
+            console.log(i);
+
+        };
+
+        function summa()
+        {
+
+            const numlist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+            var summa = 0;
+
+            for (let i of numlist)
+            {
+
+                summa = summa + i;
+
+            };
+
+            console.log(summa);
+
+        };
+
+        summa()
+
+    </script>
+
+</body>
+</html>
